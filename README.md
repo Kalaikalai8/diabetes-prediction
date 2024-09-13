@@ -1,17 +1,12 @@
-# Diabetes Prediction Flask Web App
+# Diabetes Prediction :
+the diabetes prediction process can be further improvised by identifying the type of a person is being affected by and probability of the occurence of the related diseases.
 
-This repository contains the code for a web-based diabetes prediction application using a machine learning model. The application is built using Flask and allows users to input various health parameters to predict the likelihood of diabetes.
-## Overview
+## Overview:
+diabetes is a chronic condition that occurs when the body does not produce energy enough insulin or cannot use it properly.the response to insulin is resistance
 
-The web app utilizes a machine learning model, specifically an ensemble model combining RandomForestClassifier, LogisticRegression, and Support Vector Machine (SVM), to provide predictions. The model was trained on the diabetes dataset from kaggle.
+## Features:
+symptoms of type 1 diabetes includes the need to urineate often,thirst,constanthunger,weight loss,vision changes and fatigue.
 
-## Features
 
-- Users can input their health parameters such as Glucose level, Blood Pressure, Skin Thickness, Insulin level, BMI, Diabetes Pedigree Function (DPF), and Age.
-- The ensemble machine learning model predicts the likelihood of diabetes based on the input.
-- The app displays the prediction result, indicating whether the user is likely to have diabetes or not.
-- Users can receive accurate and quick predictions for early diabetes detection.
 
-## Model
 
-The machine learning model used in this app is an ensemble of RandomForestClassifier, LogisticRegression, and Support Vector Machine (SVM). The ensemble approach combines the strengths of these classifiers to improve prediction accuracy.
